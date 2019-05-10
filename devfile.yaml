@@ -3,7 +3,10 @@ name: k8s-plugin
 components:
   - type: cheEditor
     id: 'eclipse/che-theia/next'
+    name: 'Theia'
   - type: chePlugin
     id: 'ms-kubernetes-tools/vscode-kubernetes-tools/0.1.17'
+    name: 'ms-kubernetes-tools'
   - type: chePlugin
     id: 'redhat/vscode-yaml/0.4.0'
+    name: 'vscode-yaml'
